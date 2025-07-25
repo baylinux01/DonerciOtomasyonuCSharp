@@ -1,0 +1,26 @@
+{
+  "License": {
+    "Code": "MIT",
+    "Status": "HasToBeApproved"
+  },
+  "UsedBy": [
+    {
+      "Name": "DonerciOtomasyonu",
+      "InternalOnly": false,
+      "TargetFrameworks": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ],
+  "Licenses": [
+    {
+      "Subject": "package",
+      "Code": "MIT",
+      "HRef": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+    },
+    {
+      "Subject": "project",
+      "HRef": "https://dot.net/"
+    }
+  ]
+}

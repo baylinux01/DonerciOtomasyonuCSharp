@@ -1,0 +1,54 @@
+{
+  "License": {
+    "Code": "MIT",
+    "Status": "HasToBeApproved"
+  },
+  "UsedBy": [
+    {
+      "Name": "DonerciOtomasyonu",
+      "InternalOnly": false,
+      "TargetFrameworks": [
+        "net7.0-windows7.0"
+      ],
+      "Dependencies": [
+        {
+          "Name": "Azure.Core",
+          "Version": "1.24.0"
+        },
+        {
+          "Name": "Microsoft.Identity.Client",
+          "Version": "4.45.0"
+        },
+        {
+          "Name": "Microsoft.Identity.Client.Extensions.Msal",
+          "Version": "2.19.3"
+        },
+        {
+          "Name": "System.Security.Cryptography.ProtectedData",
+          "Version": "5.0.0"
+        },
+        {
+          "Name": "System.Text.Json",
+          "Version": "7.0.0"
+        }
+      ]
+    }
+  ],
+  "Licenses": [
+    {
+      "Subject": "package",
+      "Code": "MIT",
+      "HRef": "https://licenses.nuget.org/MIT"
+    },
+    {
+      "Subject": "repository",
+      "Code": "MIT",
+      "HRef": "https://github.com/Azure/azure-sdk-for-net"
+    },
+    {
+      "Subject": "project",
+      "Code": "MIT",
+      "HRef": "https://github.com/Azure/azure-sdk-for-net/blob/Azure.Identity_1.6.0/sdk/identity/Azure.Identity/README.md"
+    }
+  ]
+}

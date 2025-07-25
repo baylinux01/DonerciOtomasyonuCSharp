@@ -1,0 +1,49 @@
+{
+  "License": {
+    "Code": "MIT",
+    "Status": "HasToBeApproved"
+  },
+  "UsedBy": [
+    {
+      "Name": "DonerciOtomasyonu",
+      "InternalOnly": false,
+      "TargetFrameworks": [
+        "net7.0-windows7.0"
+      ],
+      "Dependencies": [
+        {
+          "Name": "Humanizer.Core",
+          "Version": "2.14.1"
+        },
+        {
+          "Name": "Microsoft.EntityFrameworkCore.Relational",
+          "Version": "7.0.5"
+        },
+        {
+          "Name": "Microsoft.Extensions.DependencyModel",
+          "Version": "7.0.0"
+        },
+        {
+          "Name": "Mono.TextTemplating",
+          "Version": "2.2.1"
+        }
+      ]
+    }
+  ],
+  "Licenses": [
+    {
+      "Subject": "package",
+      "Code": "MIT",
+      "HRef": "https://licenses.nuget.org/MIT"
+    },
+    {
+      "Subject": "repository",
+      "Code": "MIT",
+      "HRef": "https://github.com/dotnet/efcore"
+    },
+    {
+      "Subject": "project",
+      "HRef": "https://docs.microsoft.com/ef/core/"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "License": {
+    "Code": "MIT",
+    "Status": "HasToBeApproved"
+  },
+  "UsedBy": [
+    {
+      "Name": "DonerciOtomasyonu",
+      "InternalOnly": false,
+      "TargetFrameworks": [
+        "net7.0-windows7.0"
+      ],
+      "Dependencies": [
+        {
+          "Name": "System.Text.Encodings.Web",
+          "Version": "7.0.0"
+        }
+      ]
+    }
+  ],
+  "Licenses": [
+    {
+      "Subject": "package",
+      "Code": "MIT",
+      "HRef": "https://licenses.nuget.org/MIT"
+    },
+    {
+      "Subject": "repository",
+      "Code": "MIT",
+      "HRef": "https://github.com/dotnet/runtime"
+    },
+    {
+      "Subject": "project",
+      "HRef": "https://dot.net/"
+    }
+  ]
+}

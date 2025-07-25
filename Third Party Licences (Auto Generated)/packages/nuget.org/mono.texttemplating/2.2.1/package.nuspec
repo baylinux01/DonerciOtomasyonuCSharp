@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Mono.TextTemplating</id>
+    <version>2.2.1</version>
+    <authors>mhutch</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/mono/t4</projectUrl>
+    <description>Open source implementation of the T4 templating engine
+
+This package allows embedding the T4 engine in an application.
+
+* To install as a dotnet global or local tool, use `dotnet-t4` instead.
+* To install in a project as a `DotNetCliToolReference`, use `dotnet-t4-project-tool` instead.</description>
+    <tags>T4, templating</tags>
+    <repository type="git" url="https://github.com/mono/t4" commit="650c1854cb1f19fe3563dff8d87f3f4713761990" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.CodeDom" version="4.4.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

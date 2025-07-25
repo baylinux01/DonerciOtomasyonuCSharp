@@ -1,0 +1,41 @@
+{
+  "License": {
+    "Code": "MIT",
+    "Status": "HasToBeApproved"
+  },
+  "UsedBy": [
+    {
+      "Name": "DonerciOtomasyonu",
+      "InternalOnly": false,
+      "TargetFrameworks": [
+        "net7.0-windows7.0"
+      ],
+      "Dependencies": [
+        {
+          "Name": "Microsoft.Data.SqlClient",
+          "Version": "5.0.1"
+        },
+        {
+          "Name": "Microsoft.EntityFrameworkCore.Relational",
+          "Version": "7.0.5"
+        }
+      ]
+    }
+  ],
+  "Licenses": [
+    {
+      "Subject": "package",
+      "Code": "MIT",
+      "HRef": "https://licenses.nuget.org/MIT"
+    },
+    {
+      "Subject": "repository",
+      "Code": "MIT",
+      "HRef": "https://github.com/dotnet/efcore"
+    },
+    {
+      "Subject": "project",
+      "HRef": "https://docs.microsoft.com/ef/core/"
+    }
+  ]
+}

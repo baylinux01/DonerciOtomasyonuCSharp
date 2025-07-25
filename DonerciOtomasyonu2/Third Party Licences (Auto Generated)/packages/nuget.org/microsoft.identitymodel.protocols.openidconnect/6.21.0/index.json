@@ -1,0 +1,42 @@
+{
+  "License": {
+    "Code": "MIT",
+    "Status": "HasToBeApproved"
+  },
+  "UsedBy": [
+    {
+      "Name": "DonerciOtomasyonu",
+      "InternalOnly": false,
+      "TargetFrameworks": [
+        "net7.0-windows7.0"
+      ],
+      "Dependencies": [
+        {
+          "Name": "Microsoft.IdentityModel.Protocols",
+          "Version": "6.21.0"
+        },
+        {
+          "Name": "System.IdentityModel.Tokens.Jwt",
+          "Version": "6.21.0"
+        }
+      ]
+    }
+  ],
+  "Licenses": [
+    {
+      "Subject": "package",
+      "Code": "MIT",
+      "HRef": "https://licenses.nuget.org/MIT"
+    },
+    {
+      "Subject": "repository",
+      "Code": "MIT",
+      "HRef": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet"
+    },
+    {
+      "Subject": "project",
+      "Code": "MIT",
+      "HRef": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet"
+    }
+  ]
+}
