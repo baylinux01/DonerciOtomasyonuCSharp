@@ -1,0 +1,10 @@
+-Uygulamayı wine ile çalıştırmak için dotnet, dotnet runtime, dotnet desktop runtime(linux sürümü yok wine ile yükleniyor) yüklü olmalı.
+-winbind paketi yüklü olmalı.
+-csproj dosyası içindeki <UseWindowsForms>true</UseWindowsForms> ifadesi yorum yapılmalı <!--<UseWindowsForms>true</UseWindowsForms>--> şeklinde
+-yukardaki adımdan sonra gereken nuget paketi yüklenebilir.
+-Wine connection stringde localhost yazınca kendi içindeki localhost zanneder o yüzden connection string server=your_ip,port şeklinde yazılmalı. port gerekli mi kesin emin değilim.
+-.desktop uzantılı Desktop entry yazılarak kullanılabilir. sql server'a bağlanmak için kullanılan environment variable'lar desktop entry'nin exec kısmında belirtilmeli ve wine yazmak unutulmamalı.
+-örnek exec komutu 
+Exec=env MSSQL_PASSWORD=Deneme.01 wine /home/baylinux/solution_donerci_otomasyonu/project_donerci_otomasyonu/bin/Debug/net8.0-windows/project_donerci_otomasyonu.exe
+-Desktop entry'de Type,Categories ve Terminal=false alanları zorunludur.
+

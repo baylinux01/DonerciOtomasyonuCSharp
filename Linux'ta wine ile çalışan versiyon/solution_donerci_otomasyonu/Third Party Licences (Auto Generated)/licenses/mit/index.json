@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/max-ieremenko/ThirdPartyLibraries/refs/heads/master/Docs/schema.license-index.json",
+  "Code": "MIT",
+  "FullName": "MIT License",
+  "RequiresApproval": true,
+  "RequiresThirdPartyNotices": false,
+  "HRef": "https://spdx.org/licenses/MIT",
+  "FileName": "license.txt",
+  "Dependencies": []
+}

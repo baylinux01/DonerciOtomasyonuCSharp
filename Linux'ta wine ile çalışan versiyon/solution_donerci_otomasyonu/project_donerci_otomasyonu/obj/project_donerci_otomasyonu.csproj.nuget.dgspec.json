@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/baylinux/solution_donerci_otomasyonu/project_donerci_otomasyonu/project_donerci_otomasyonu.csproj": {}
+  },
+  "projects": {
+    "/home/baylinux/solution_donerci_otomasyonu/project_donerci_otomasyonu/project_donerci_otomasyonu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/baylinux/solution_donerci_otomasyonu/project_donerci_otomasyonu/project_donerci_otomasyonu.csproj",
+        "projectName": "project_donerci_otomasyonu",
+        "projectPath": "/home/baylinux/solution_donerci_otomasyonu/project_donerci_otomasyonu/project_donerci_otomasyonu.csproj",
+        "packagesPath": "/home/baylinux/.nuget/packages/",
+        "outputPath": "/home/baylinux/solution_donerci_otomasyonu/project_donerci_otomasyonu/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/baylinux/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[7.0.0-preview3.25342.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.124/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

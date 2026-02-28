@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Comment=Dönerci Otomasyonu
+Name=Dönerci Otomasyonu
+Icon=/home/baylinux/.local/share/xdg-desktop-portal/icons/scalable/doner.webp
+Exec=env MSSQL_PASSWORD=Deneme.01 wine /home/baylinux/solution_donerci_otomasyonu/project_donerci_otomasyonu/bin/Debug/net8.0-windows/project_donerci_otomasyonu.exe
+Terminal=false
+Categories=Utility

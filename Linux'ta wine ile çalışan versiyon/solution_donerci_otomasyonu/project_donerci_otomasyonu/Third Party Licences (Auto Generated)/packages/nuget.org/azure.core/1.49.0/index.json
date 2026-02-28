@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/max-ieremenko/ThirdPartyLibraries/refs/heads/master/Docs/schema.package-index.json",
+  "Source": "https://api.nuget.org/v3/index.json",
+  "License": {
+    "Code": "MIT",
+    "Status": "HasToBeApproved"
+  },
+  "UsedBy": [
+    {
+      "Name": "DonerciOtomasyonu",
+      "InternalOnly": false,
+      "TargetFrameworks": [
+        "net8.0-windows7.0"
+      ],
+      "Dependencies": [
+        {
+          "Name": "Microsoft.Bcl.AsyncInterfaces",
+          "Version": "8.0.0"
+        },
+        {
+          "Name": "System.ClientModel",
+          "Version": "1.7.0"
+        },
+        {
+          "Name": "System.Memory.Data",
+          "Version": "8.0.1"
+        }
+      ]
+    }
+  ],
+  "Licenses": [
+    {
+      "Subject": "package",
+      "Code": "MIT",
+      "HRef": "https://licenses.nuget.org/MIT"
+    },
+    {
+      "Subject": "repository",
+      "Code": "MIT",
+      "HRef": "https://github.com/Azure/azure-sdk-for-net"
+    },
+    {
+      "Subject": "project",
+      "Code": "MIT",
+      "HRef": "https://github.com/Azure/azure-sdk-for-net/blob/Azure.Core_1.49.0/sdk/core/Azure.Core/README.md"
+    }
+  ]
+}

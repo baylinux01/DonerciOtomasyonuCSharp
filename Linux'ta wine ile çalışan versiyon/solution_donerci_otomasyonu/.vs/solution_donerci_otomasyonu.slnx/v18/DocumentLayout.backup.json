@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\baylinux\\source\\repos\\solution_donerci_otomasyonu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{741B5C4B-B780-E067-C965-6BCA50D4406A}|project_donerci_otomasyonu\\project_donerci_otomasyonu.csproj|c:\\users\\baylinux\\source\\repos\\solution_donerci_otomasyonu\\project_donerci_otomasyonu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741B5C4B-B780-E067-C965-6BCA50D4406A}|project_donerci_otomasyonu\\project_donerci_otomasyonu.csproj|solutionrelative:project_donerci_otomasyonu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741B5C4B-B780-E067-C965-6BCA50D4406A}|project_donerci_otomasyonu\\project_donerci_otomasyonu.csproj|C:\\Users\\baylinux\\source\\repos\\solution_donerci_otomasyonu\\project_donerci_otomasyonu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{741B5C4B-B780-E067-C965-6BCA50D4406A}|project_donerci_otomasyonu\\project_donerci_otomasyonu.csproj|solutionrelative:project_donerci_otomasyonu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\baylinux\\source\\repos\\solution_donerci_otomasyonu\\project_donerci_otomasyonu\\Form1.cs",
+              "RelativeDocumentMoniker": "project_donerci_otomasyonu\\Form1.cs",
+              "ToolTip": "C:\\Users\\baylinux\\source\\repos\\solution_donerci_otomasyonu\\project_donerci_otomasyonu\\Form1.cs",
+              "RelativeToolTip": "project_donerci_otomasyonu\\Form1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIAxwBQAAADEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T23:35:56.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\baylinux\\source\\repos\\solution_donerci_otomasyonu\\project_donerci_otomasyonu\\Form1.cs",
+              "RelativeDocumentMoniker": "project_donerci_otomasyonu\\Form1.cs",
+              "ToolTip": "C:\\Users\\baylinux\\source\\repos\\solution_donerci_otomasyonu\\project_donerci_otomasyonu\\Form1.cs [Design]",
+              "RelativeToolTip": "project_donerci_otomasyonu\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T22:21:46.135Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

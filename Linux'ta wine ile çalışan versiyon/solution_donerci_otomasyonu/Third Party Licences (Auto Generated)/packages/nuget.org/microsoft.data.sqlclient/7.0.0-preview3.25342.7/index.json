@@ -1,0 +1,71 @@
+{
+  "$schema": "https://raw.githubusercontent.com/max-ieremenko/ThirdPartyLibraries/refs/heads/master/Docs/schema.package-index.json",
+  "Source": "https://api.nuget.org/v3/index.json",
+  "License": {
+    "Code": "MIT",
+    "Status": "HasToBeApproved"
+  },
+  "UsedBy": [
+    {
+      "Name": "DonerciOtomasyonu",
+      "InternalOnly": false,
+      "TargetFrameworks": [
+        "net8.0-windows7.0"
+      ],
+      "Dependencies": [
+        {
+          "Name": "Azure.Core",
+          "Version": "1.49.0"
+        },
+        {
+          "Name": "Azure.Identity",
+          "Version": "1.16.0"
+        },
+        {
+          "Name": "Microsoft.Bcl.Cryptography",
+          "Version": "8.0.0"
+        },
+        {
+          "Name": "Microsoft.Extensions.Caching.Memory",
+          "Version": "8.0.1"
+        },
+        {
+          "Name": "Microsoft.IdentityModel.JsonWebTokens",
+          "Version": "8.14.0"
+        },
+        {
+          "Name": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+          "Version": "8.14.0"
+        },
+        {
+          "Name": "Microsoft.SqlServer.Server",
+          "Version": "1.0.0"
+        },
+        {
+          "Name": "System.Configuration.ConfigurationManager",
+          "Version": "8.0.1"
+        },
+        {
+          "Name": "System.Security.Cryptography.Pkcs",
+          "Version": "8.0.1"
+        }
+      ]
+    }
+  ],
+  "Licenses": [
+    {
+      "Subject": "package",
+      "Code": "MIT",
+      "HRef": "https://licenses.nuget.org/MIT"
+    },
+    {
+      "Subject": "repository",
+      "Code": "MIT",
+      "HRef": "https://github.com/dotnet/sqlclient"
+    },
+    {
+      "Subject": "project",
+      "HRef": "https://aka.ms/sqlclientproject"
+    }
+  ]
+}
