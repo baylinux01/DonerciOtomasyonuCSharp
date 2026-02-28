@@ -1,10 +1,29 @@
--Uygulamayı wine ile çalıştırmak için dotnet, dotnet runtime, dotnet desktop runtime(linux sürümü yok wine ile yükleniyor) yüklü olmalı.
--winbind paketi yüklü olmalı.
--csproj dosyası içindeki <UseWindowsForms>true</UseWindowsForms> ifadesi yorum yapılmalı <!--<UseWindowsForms>true</UseWindowsForms>--> şeklinde
--yukardaki adımdan sonra gereken nuget paketi yüklenebilir.
--Wine connection stringde localhost yazınca kendi içindeki localhost zanneder o yüzden connection string server=your_ip,port şeklinde yazılmalı. port gerekli mi kesin emin değilim.
--.desktop uzantılı Desktop entry yazılarak kullanılabilir. sql server'a bağlanmak için kullanılan environment variable'lar desktop entry'nin exec kısmında belirtilmeli ve wine yazmak unutulmamalı.
--örnek exec komutu 
-Exec=env MSSQL_PASSWORD=Deneme.01 wine /home/baylinux/solution_donerci_otomasyonu/project_donerci_otomasyonu/bin/Debug/net8.0-windows/project_donerci_otomasyonu.exe
+Windows Forms(WinForms) uygulamalarını linux'ta native app gibi çalıştırmak için gerekli adımlar şunlardır:
+-Uygulamayı wine ile çalıştırmak için dotnet, dotnet runtime, dotnet desktop runtime(linux sürümü yok winetricks kullanarak yüklemek gerekiyor) 
+yüklü olmalı. 
+-Önce
+sudo dpkg --add-architecture i386 && sudo apt-get update && sudo apt-get install wine wine32:i386 winbind winetricks
+kodu ile gerekli paketler yüklenmeli
+-Sonra
+winetricks dotnetdesktop8
+kodu ile dotnet desktop runtime yüklenmeli
+-csproj dosyası içindeki <UseWindowsForms>true</UseWindowsForms> ifadesi yorum yapılmalı
+yani <!-- <UseWindowsForms>true</UseWindowsForms> --> şeklinde 
+-yukardaki adımdan yani UseWindowsForms etiketi yorum satırı yapıldıktan sonra gereken nuget paketi proje içinde terminal açarak yüklenebilir. 
+-Wine sql connection string’de server=localhost yazınca kendi içindeki windows'taki localhost zanneder, o yüzden connection string'de server=your_ip,port şeklinde yazılmalı. (not: ip ifconfig komutu ile öğrenilebilir. port gerekli mi kesin emin değilim denenmesi lazım)
+-Uygulama .desktop uzantılı Desktop Entry dosyası yazılarak native linux app gibi kullanılabilir. Ancak sql server'a bağlanmak için kullanılan environment variable'lar desktop entry'nin exec kısmında belirtilmeli ve wine yazmak yani wine ile çalıştırmak unutulmamalıdır.
+-örnek exec komutu 
+Exec=env MSSQL_PASSWORD=Deneme.01 wine /home/baylinux/solution_donerci_otomasyonu/project_donerci_otomasyonu/bin/Debug/net8.0-windows/project_donerci_otomasyonu.exe 
 -Desktop entry'de Type,Categories ve Terminal=false alanları zorunludur.
+
+
+Örnek Desktop Entry:
+
+[Desktop Entry] 
+Type=Application Comment=Dönerci Otomasyonu 
+Name=Dönerci Otomasyonu 
+Icon=/home/baylinux/.local/share/xdg-desktop-portal/icons/scalable/doner.webp 
+Exec=env MSSQL_PASSWORD=Deneme.01 wine /home/baylinux/solution_donerci_otomasyonu/project_donerci_otomasyonu/bin/Debug/net8.0-windows/project_donerci_otomasyonu.exe 
+Terminal=false 
+Categories=Utility
 
